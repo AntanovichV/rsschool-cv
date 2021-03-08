@@ -16,7 +16,12 @@
 * Git (basic skills)
 * Photoshop, Corel Draw
 * AutoCad
-
+```
+function ucFirst(str) {
+  str = str.charAt(0).toUpperCase() + str.slice(1);
+  return str;
+};
+```
 
 ## Experience:
 * 01.08.07 - now : BELNIPIENERGOPROM (electrical engineer)
