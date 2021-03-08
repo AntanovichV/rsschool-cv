@@ -2,7 +2,10 @@
 
 ## Contact info:
 * **phone_number**: +375291182762
-* **e-mail**: valechka1t@yandex.ru
+* **e-mail**: antanovichvalentina@gmail.com
+* **Github**: https://github.com/AntanovichV
+* **Linkedin**: http://linkedin.com/in/valentina-antanovich-9b0aa696
+
 
 ## Summary:
  IT attractes me by the huge potential for training and development. This profession captures me entirely. I enjoy the fact that I immediately see the results of my work. Now I am a designer of the protection and automation systems of power plants but I need to move on. I learn something new in programming everyday and love it. 
