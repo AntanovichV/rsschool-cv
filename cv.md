@@ -24,7 +24,10 @@
 
 ## Education:
 * 2002-2007: Belarusian National Technical University (electrical engineer)
-
+* 2019: RSschool. JavaScript/Front-end (stage 0-1)
+* 2019: It Academy. JavaScript Basic
+* 2020: HTML Academy. HTML/CSS/JavaScript
+* 2021: learn.javascript JavaScript/DOM/Интерфейсы" для новичков
 
 ## English level:
 B1(Intermediate) Streamline course certificate
