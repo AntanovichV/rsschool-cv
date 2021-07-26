@@ -1,2 +1,2 @@
 # rsschool-cv
-[AntanovichV.github.io/rsschool-cv/cv](https://AntanovichV.github.io/rsschool-cv/cv)
+[AntanovichV.github.io/rsschool-cv](https://AntanovichV.github.io/rsschool-cv)
