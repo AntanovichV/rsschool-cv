@@ -1,0 +1,120 @@
+body {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2C2A27;
+  background-color: #E5E5E5;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  max-width: 1200px;
+}
+
+.header {
+  display: flex;
+  padding: 20px;
+}
+
+.foto {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column; 
+}
+
+.name {
+  margin-left: 100px;
+  align-self: center;
+}
+
+h1, .rss-year, .GitHub {
+  font-family: Lora;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #2C2A27;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #84522A;
+}
+
+h2, h3 {
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #AD764B;
+}
+
+.profession {
+  text-transform: uppercase;
+  color: #84522A; 
+  font-weight: bold;
+  line-height: 180%; 
+}
+
+.contact-point {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  line-height: 1;
+}
+
+.code-simple {
+  max-width: max-content;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: #DEB392;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;  
+  border-top: 2px solid #2C2A27;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.rss-year {
+  line-height: 30px;  
+}
+
+.skills-container {
+  width: 180px;
+  height: 5px;
+  background-color: #DEB392;  
+}
+
+.skills {
+  width: 90%;
+  height: 5px;
+  background-color: #AD764B;
+}
+
+.skill-name {
+  margin-bottom: 5px;
+}
+
+.git {
+  width: 60%; 
+}
+
+.js, .figma {
+  width: 70%; 
+}
