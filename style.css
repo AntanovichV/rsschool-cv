@@ -10,38 +10,6 @@ body {
   justify-content: space-around;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
-@media (min-width: 992px) {
-.container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 576px) {
-.container {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 540px;
-    padding: 0;
-    -webkit-box-shadow: -5px 5px 20px 5px rgb(34 60 80 / 30%);
-    -moz-box-shadow: -5px 5px 20px 5px rgba(34, 60, 80, 0.3);
-    box-shadow: -5px 5px 20px 5px rgb(34 60 80 / 30%);
-  }
-}
-
 .container {
   display: flex;
   justify-content: space-around;
@@ -51,9 +19,15 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   max-width: 1200px;
-  padding: 20px;
+  padding: 10px 0;
+}
+
+
+.cv-left-side-wrapper, .cv-right-side-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 #menu__toggle {
@@ -151,6 +125,10 @@ body {
   background-color: #CFD8DC;
 }
 
+.cv-foto-name {
+  display: flex;
+}
+
 .foto {
   display: flex;
   justify-content: space-around;
@@ -204,6 +182,11 @@ h2, h3 {
   line-height: 1;
 }
 
+.about-me {
+  display: inline-block;
+  padding-right: 10%;
+}
+
 pre {
     margin: 0;
 }
@@ -216,7 +199,7 @@ pre {
 }
 
 .skills-container {
-  width: 180px;
+  width: 80%;
   height: 5px;
   background-color: #DEB392;  
 }
@@ -250,4 +233,52 @@ pre {
 
 .rss-year {
   line-height: 30px;  
+}
+
+@media (min-width: 320px){
+  .container{
+      margin-top: 15px;
+      margin-bottom: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 280px;
+      padding:  0 20px;
+      -webkit-box-shadow: -5px 5px 20px 5px rgba(34, 60, 80, 0.3);
+      -moz-box-shadow: -5px 5px 20px 5px rgba(34, 60, 80, 0.3);
+      box-shadow: -5px 5px 20px 5px rgba(34, 60, 80, 0.3);
+  }       
+}
+@media (min-width: 768px){
+  .container {
+      max-width: 720px;
+  }
+
+  main {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .cv-left-side-wrapper {
+      width: 30%;
+  }
+
+  .cv-right-side-wrapper {
+      width: 70%;
+  }  
+  .footer-container {
+      display: flex;
+      align-items: center;
+  }
+}
+
+@media (min-width: 992px){
+  .container{
+      max-width: 960px;
+  }       
+}
+
+@media (min-width: 1200px){
+  .container{
+      max-width: 1140px;
+  }   
 }
