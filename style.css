@@ -140,7 +140,12 @@ body {
   align-self: center;
 }
 
-h1, .rss-year, .GitHub {
+h1 {
+  visibility: hidden;
+  margin: 0;
+}
+
+h4, .rss-year, .GitHub {
   font-family: Lora;
   font-size: 30px;
 }
@@ -275,10 +280,4 @@ pre {
   .container{
       max-width: 960px;
   }       
-}
-
-@media (min-width: 1200px){
-  .container{
-      max-width: 1140px;
-  }   
 }
