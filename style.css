@@ -75,24 +75,15 @@ h2, h3 {
   line-height: 1;
 }
 
+pre {
+    margin: 0;
+}
+
 .code-simple {
   max-width: max-content;
-  padding: 20px;
+  padding: 10px;
   margin-left: 20px;
   background-color: #DEB392;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;  
-  border-top: 2px solid #2C2A27;
-  padding-top: 10px;
-  margin: 0;
-}
-
-.rss-year {
-  line-height: 30px;  
 }
 
 .skills-container {
@@ -114,7 +105,20 @@ h2, h3 {
 .git {
   width: 60%; 
 }
-
+  
 .js, .figma {
   width: 70%; 
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;  
+  border-top: 2px solid #2C2A27;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.rss-year {
+  line-height: 30px;  
 }
